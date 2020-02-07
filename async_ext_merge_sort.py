@@ -6,7 +6,7 @@ import asyncio
 def sortSingleFiles():#sort all the files and save as individual files
     #import os
     count = 0
-    path = os.path.realpath('cmpe273-spring20-labs-master/lab1/input/')
+    path = os.path.realpath('cmpe273-spring20-labs-master/lab1/input/') #This may need to be changed to a proper path
     
     os.chdir(path)
     realMax = 0
